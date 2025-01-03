@@ -9,18 +9,18 @@ SCREEN_WIDTH = 1100
 SCREEN = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("Chrome Dino By Stoppinobello")
 
-RUNNING = [pygame.image.load(os.path.join("DinoRun1.png")),
-           pygame.image.load(os.path.join("DinoRun2.png"))]
-JUMPING = pygame.image.load(os.path.join("DinoJump.png"))
-DUCKING = [pygame.image.load(os.path.join("DinoDuck1.png")),
-           pygame.image.load(os.path.join("DinoDuck2.png"))]
+RUNNING = [pygame.image.load(os.path.join("Assets", "DinoRun1.png")),
+           pygame.image.load(os.path.join("Assets", "DinoRun2.png"))]
+JUMPING = pygame.image.load(os.path.join("Assets", "DinoJump.png"))
+DUCKING = [pygame.image.load(os.path.join("Assets", "DinoDuck1.png")),
+           pygame.image.load(os.path.join("Assets", "DinoDuck2.png"))]
 
-SMALL_CACTUS = [pygame.image.load(os.path.join("SmallCactus1.png")),
-                pygame.image.load(os.path.join("SmallCactus2.png")),
-                pygame.image.load(os.path.join("SmallCactus3.png"))]
-LARGE_CACTUS = [pygame.image.load(os.path.join("LargeCactus1.png")),
-                pygame.image.load(os.path.join("LargeCactus2.png")),
-                pygame.image.load(os.path.join("LargeCactus3.png"))]
+SMALL_CACTUS = [pygame.image.load(os.path.join("Assets", "SmallCactus1.png")),
+                pygame.image.load(os.path.join("Assets", "SmallCactus2.png")),
+                pygame.image.load(os.path.join("Assets", "SmallCactus3.png"))]
+LARGE_CACTUS = [pygame.image.load(os.path.join("Assets", "LargeCactus1.png")),
+                pygame.image.load(os.path.join("Assets", "LargeCactus2.png")),
+                pygame.image.load(os.path.join("Assets", "LargeCactus3.png"))]
 
 BIRD = [pygame.image.load(os.path.join("Bird1.png")),
         pygame.image.load(os.path.join("Bird2.png"))]
